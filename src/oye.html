@@ -8,15 +8,15 @@
 </head>
 
 <body>
-    <div class=" max-sm:bg-amber-200 max-md:bg-blue-200 max-lg:bg-green-200">
-        <!-- 
-    This div uses Tailwind CSS responsive background color classes:
-    - max-sm:bg-amber-200: amber background for small screens and below
-    - max-md:bg-blue-200: blue background for medium screens and below
-    - max-lg:bg-green-200: green background for large screens and below
-    The background color changes based on the screen width.
-  -->
-
+    <div class=" sm:bg-amber-200 md:bg-blue-200 lg:bg-green-200 xl:bg-red-200 2xl:bg-purple-200">
+        <!--
+  This <div> uses Tailwind CSS responsive classes to change its background color at different screen sizes:
+    - sm:bg-amber-200: small screens (≥640px) get amber background
+    - md:bg-blue-200: medium screens (≥768px) get blue background
+    - lg:bg-green-200: large screens (≥1024px) get green background
+    - xl:bg-red-200: extra-large screens (≥1280px) get red background
+    - 2xl:bg-purple-200: 2XL screens (≥1536px) get purple background
+-->
         <p class=" text-white">I appear on screen wider than 760px</p>
     </div>
 </body>
