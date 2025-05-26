@@ -7,10 +7,16 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body ">
-<div class=" md:block hidden">
-    <!-- media query for screen wider than 760px means: it hides the text until its >=760px -->
-    <p class=" text-white">I appear on screen wider than 760px</p>
+<body>
+    <div class=" sm:bg-amber-200 md:bg-blue-200 lg:bg-green-200 xl:bg-red-200 2xl:bg-purple-200">
+        <!--This <div> will have different background colors depending on the screen width:
+            sm:bg-amber-200: For small screens (min-width: 640px)
+            md:bg-blue-200: For medium screens (min-width: 768px)
+            lg:bg-green-200: For large screens (min-width: 1024px)
+            xl:bg-red-200: For extra-large screens (min-width: 1280px)
+            2xl:bg-purple-200: For 2x extra-large screens (min-width: 1536px) 
+           and to remember that the max width always overwrites the minimal width's color -->
+        <p class=" text-white">I appear on screen wider than 760px</p>
     </div>
 </body>
 
