@@ -24,4 +24,8 @@ body{
     }
 }
 
+@utility flex-center{
+    @apply flex items-center justify-center;
+}
+
 /* Your custom CSS below */
