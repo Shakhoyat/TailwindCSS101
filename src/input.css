@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+body{
+    background-color: var(--color-yellow-100);
+    color: var(--color-violet-500);
+}
+
+:root {
+    --color-chestnut-500: #7b3f00;
+    --font-Sans: 'Inter', sans-serif;
+    --font-mono: 'Courier New', monospace;
+}
