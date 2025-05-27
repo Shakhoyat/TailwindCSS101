@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
 
 body{
     background-color: var(--color-yellow-100);
@@ -10,3 +13,11 @@ body{
     --font-Sans: 'Inter', sans-serif;
     --font-mono: 'Courier New', monospace;
 }
+
+@layer components {
+    .card {
+        @apply m-10 rounded-lg bg-white px-6 py-8 shadow-2xl ring-1 ring-slate-900/5 dark:bg-black;
+    }
+}
+
+/* Your custom CSS below */
